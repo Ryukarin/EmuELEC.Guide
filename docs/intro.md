@@ -2,6 +2,6 @@
 icon: info
 ---
 
-# Intro Page
+# 个人信息
 
-Place your introducation and profile here.
+测试内容

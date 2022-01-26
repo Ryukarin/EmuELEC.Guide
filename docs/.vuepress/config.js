@@ -1,122 +1,73 @@
 const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
-  title: "Theme Demo",
-  description: "A demo for vuepress-theme-hope",
-  base: "/EmuELEC.Guide/",
+  title: "EmuELEC",
+//  description: "复古游戏",
+
   dest: "./dist",
 
   head: [
-    [
-      "script",
-      { src: "https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" },
-    ],
-    [
-      "script",
-      {
-        src: "https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js",
-      },
-    ],
-    ["script", { src: "https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js" }],
-    [
-      "script",
-      { src: "https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js" },
-    ],
+    ["script",{ src: "https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" }],
+    ["script",{ src: "https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js" }],
+    ["script",{ src: "https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js" }],
+    ["script",{ src: "https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js" }]
   ],
 
-  locales: {
-    "/": {
-      lang: "en-US",
-    },
-    "/zh/": {
-      title: "Theme Demo",
-      description: "vuepress-theme-hope 的 demo",
-    },
-  },
+//  locales: {
+//    "/": {
+//      lang: "en-US",
+//    },
+//    "/zh/": {
+//      title: "Theme Demo",
+//      description: "vuepress-theme-hope 的 demo",
+//    },
+//  },
 
   themeConfig: {
-    logo: "/logo.svg",
+    logo: "/logo.png",
     hostname: "https://vuepress-theme-hope-demo.mrhope.site",
 
-    author: "Mr.Hope",
-    repo: "https://github.com/vuepress-theme-hope/vuepress-theme-hope",
+    author: "KARIN",
+//    repo: "https://github.com/Ryukarin/emuelec_guide",
 
     nav: [
-      { text: "Blog Home", link: "/", icon: "home" },
-      { text: "Project Home", link: "/home/", icon: "home" },
-      {
-        text: "Guide",
-        icon: "creative",
-        link: "/guide/",
-      },
-      {
-        text: "Docs",
-        link: "https://vuepress-theme-hope.github.io/",
-        icon: "note",
-      },
+      { text: "博客主页", icon: "home", link: "/" },
+      { text: "项目介绍", icon: "folder", link: "/project/" },
+      { text: "玩法教程", icon: "note", link: "/guide/"},
+      { text: "更多技巧", icon: "more", link: "/more/"},
+      { text: "资源下载", icon: "install", items: [
+      	{text: "镜像", icon: "cache", link: "https://www.aliyundrive.com/s/xRXmuU2duse" },
+      	{text: "工具", icon: "cache", link: "https://www.aliyundrive.com/s/3T8DcHhNJot" }]}
     ],
 
     sidebar: {
       "/": [
         "",
-        "home",
-        "slides",
-        "layout",
+        "project",
         {
-          title: "Guide",
-          icon: "creative",
+          title: "玩法教程",
+          icon: "note",
           prefix: "guide/",
           children: ["", "page", "markdown", "disable", "encrypt"],
         },
-      ],
-    },
-
-    locales: {
-      "/zh/": {
-        nav: [
-          { text: "博客主页", link: "/zh/", icon: "home" },
-          { text: "项目主页", link: "/zh/home/", icon: "home" },
-          {
-            text: "如何使用",
-            icon: "creative",
-            link: "/zh/guide/",
-          },
-          {
-            text: "主题文档",
-            icon: "note",
-            link: "https://vuepress-theme-hope.github.io/zh/",
-          },
-        ],
-        sidebar: {
-          "/zh/": [
-            "",
-            "home",
-            "slides",
-            "layout",
-            {
-              title: "如何使用",
-              icon: "creative",
-              prefix: "guide/",
-              children: ["", "page", "markdown", "disable", "encrypt"],
-            },
-          ],
+        {
+          title: "更多技巧",
+          icon: "config",
+          prefix: "more/",
+          children: ["", ],
         },
-      },
+        
+      ],
     },
 
     blog: {
       intro: "/intro/",
       sidebarDisplay: "mobile",
-      links: {
-        Zhihu: "https://zhihu.com",
-        Baidu: "https://baidu.com",
-        Github: "https://github.com",
-      },
     },
 
     footer: {
       display: true,
-      content: "默认页脚",
+      content: "MIT Licensed",
     },
 
     comment: {

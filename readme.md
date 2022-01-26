@@ -1,1 +1,1 @@
-https://ryukarin.github.io/emuelec_guide/
+https://ryukarin.github.io/EmuELEC.Guide/
