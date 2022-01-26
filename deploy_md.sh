@@ -13,7 +13,7 @@ set -e
 # echo 'www.example.com' > CNAME
 
 git init
-git add docs/ deploy.sh deploy_md.sh package.json package-lock.json
+git add docs/ readme.md deploy.sh deploy_md.sh package.json package-lock.json
 git commit -m 'md_up'
 
 # 如果发布到 https://<USERNAME>.github.io

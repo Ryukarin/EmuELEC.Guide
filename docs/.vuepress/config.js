@@ -3,7 +3,7 @@ const { config } = require("vuepress-theme-hope");
 module.exports = config({
   title: "Theme Demo",
   description: "A demo for vuepress-theme-hope",
-
+  base: "/EmuELEC.Guide/",
   dest: "./dist",
 
   head: [
