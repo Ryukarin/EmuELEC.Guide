@@ -3,7 +3,7 @@ const { config } = require("vuepress-theme-hope");
 module.exports = config({
   title: "EmuELEC",
 //  description: "复古游戏",
-
+  base: "/guide/",
   dest: "./dist",
 
   head: [
@@ -13,19 +13,9 @@ module.exports = config({
     ["script",{ src: "https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js" }]
   ],
 
-//  locales: {
-//    "/": {
-//      lang: "en-US",
-//    },
-//    "/zh/": {
-//      title: "Theme Demo",
-//      description: "vuepress-theme-hope 的 demo",
-//    },
-//  },
-
   themeConfig: {
     logo: "/logo.png",
-    hostname: "https://vuepress-theme-hope-demo.mrhope.site",
+//    hostname: "https://vuepress-theme-hope-demo.mrhope.site",
 
     author: "KARIN",
 //    repo: "https://github.com/Ryukarin/emuelec_guide",
@@ -36,8 +26,8 @@ module.exports = config({
       { text: "玩法教程", icon: "note", link: "/guide/"},
       { text: "更多技巧", icon: "more", link: "/more/"},
       { text: "资源下载", icon: "install", items: [
-      	{text: "镜像", icon: "cache", link: "https://www.aliyundrive.com/s/xRXmuU2duse" },
-      	{text: "工具", icon: "cache", link: "https://www.aliyundrive.com/s/3T8DcHhNJot" }]}
+      	{text: "镜像", icon: "cache", link: "https://cloud.189.cn/web/share?code=Vri2QjU3MfMj" },
+      	{text: "工具", icon: "cache", link: "https://cloud.189.cn/web/share?code=YjQvuu6JZNfq" }]}
     ],
 
     sidebar: {
@@ -48,13 +38,13 @@ module.exports = config({
           title: "玩法教程",
           icon: "note",
           prefix: "guide/",
-          children: ["", "page", "markdown", "disable", "encrypt"],
+          children: ["", "01.install", "02.settings", "03.addrom", "04.scraper", "05.gamelist", "06.bezels", "07.splash", "08.theme", "09.summary"],
         },
         {
           title: "更多技巧",
           icon: "config",
           prefix: "more/",
-          children: ["", ],
+          children: ["", "01.directory_file", "02.change_bootvideo", "03.reset_setup", "04.install_drastic", "05.locale_zh", "77.change_bootsplash", "88.change_system", "99.remk_img"],
         },
         
       ],
