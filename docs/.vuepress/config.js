@@ -3,7 +3,7 @@ const { config } = require("vuepress-theme-hope");
 module.exports = config({
   title: "EmuELEC",
 //  description: "复古游戏",
-  base: "/guide/",
+  base: "/EmuELEC.Guide/",
   dest: "./dist",
 
   head: [
@@ -38,7 +38,7 @@ module.exports = config({
           title: "玩法教程",
           icon: "note",
           prefix: "guide/",
-          children: ["", "01.install", "02.settings", "03.addrom", "04.scraper", "05.gamelist", "06.bezels", "07.splash", "08.theme", "09.summary"],
+          children: ["", "00.introduce", "01.install", "02.settings", "03.addrom", "04.scraper", "05.gamelist", "06.bezels", "07.splash", "08.theme", "09.summary"],
         },
         {
           title: "更多技巧",

@@ -2,14 +2,14 @@
 title: EmuELEC技巧导航
 time: 2022-02-01
 categories: 
-  - Skill
+  - navigation
 tag:
   - EmuELEC
 ---
 
 ## 文章列表
 
-- [自定义边框和闪图](01.bezel_splash.md)
+- [分区目录文件](01.directory_file.md)
 - [更换开机视频](02.change_bootvideo.md)
 - [修改系统设置菜单](03.reset_setup.md)
 - [安装NDS模拟器drastic](04.install_drastic.md)
