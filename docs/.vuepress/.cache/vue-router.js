@@ -1,6 +1,6 @@
 import {
   setupDevtoolsPlugin
-} from "./chunk-YAEMIUOD.js";
+} from "./chunk-V3I57YDZ.js";
 import {
   computed,
   defineComponent,
@@ -18,8 +18,8 @@ import {
   unref,
   watch,
   watchEffect
-} from "./chunk-CCAFNLAE.js";
-import "./chunk-NXTWRX7V.js";
+} from "./chunk-ZLUHSKX7.js";
+import "./chunk-GQYJDICQ.js";
 import {
   init_define_ARTICLE_INFO_LOCALES,
   init_define_BACK_TO_TOP_LOCALES,
@@ -34,9 +34,11 @@ import {
   init_define_PHOTO_SWIPE_OPTIONS,
   init_define_READING_TIME_LOCALES,
   init_define_REVEAL_CONFIG,
+  init_define_SEARCH_HOT_KEYS,
+  init_define_SEARCH_LOCALES,
   init_define_TOC_LOCALES,
   init_define_WALINE_LOCALES
-} from "./chunk-SYOGPH4A.js";
+} from "./chunk-4ZZ4CL2W.js";
 
 // dep:vue-router
 init_define_ARTICLE_INFO_LOCALES();
@@ -54,6 +56,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/vue-router/dist/vue-router.esm-bundler.js
 init_define_ARTICLE_INFO_LOCALES();
@@ -71,6 +75,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var hasSymbol = typeof Symbol === "function" && typeof Symbol.toStringTag === "symbol";
 var PolySymbol = (name) => hasSymbol ? Symbol(true ? "[vue-router]: " + name : name) : (true ? "[vue-router]: " : "_vr_") + name;
 var matchedRouteKey = PolySymbol(true ? "router view location matched" : "rvlm");

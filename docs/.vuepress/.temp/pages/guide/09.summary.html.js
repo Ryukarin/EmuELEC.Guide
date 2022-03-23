@@ -18,7 +18,7 @@ export const data = {
         "meta",
         {
           "property": "og:url",
-          "content": "https://ryukarin.github.io/EmuELEC.Guide/guide/09.summary.html"
+          "content": "https://ryukarin.github.io/EmuELEC.Guide/EmuELEC.Guide/guide/09.summary.html"
         }
       ],
       [
@@ -46,7 +46,7 @@ export const data = {
         "meta",
         {
           "property": "og:image",
-          "content": "https://ryukarin.github.io/EmuELEC.Guide/"
+          "content": "https://ryukarin.github.io/EmuELEC.Guide/EmuELEC.Guide/"
         }
       ],
       [
@@ -102,7 +102,17 @@ export const data = {
       ]
     }
   ],
-  "git": {},
+  "git": {
+    "createdTime": 1648013041000,
+    "updatedTime": 1648013041000,
+    "contributors": [
+      {
+        "name": "Ryukarin",
+        "email": "ryuukaringo@gmail.com",
+        "commits": 1
+      }
+    ]
+  },
   "readingTime": {
     "minutes": 0.72,
     "words": 217

@@ -16,7 +16,7 @@ export const data = {
         "meta",
         {
           "property": "og:url",
-          "content": "https://ryukarin.github.io/EmuELEC.Guide/encrypted/"
+          "content": "https://ryukarin.github.io/EmuELEC.Guide/EmuELEC.Guide/encrypted/"
         }
       ],
       [

@@ -23,8 +23,8 @@ import {
   unref,
   watch,
   watchEffect
-} from "./chunk-CCAFNLAE.js";
-import "./chunk-NXTWRX7V.js";
+} from "./chunk-ZLUHSKX7.js";
+import "./chunk-GQYJDICQ.js";
 import {
   init_define_ARTICLE_INFO_LOCALES,
   init_define_BACK_TO_TOP_LOCALES,
@@ -39,9 +39,11 @@ import {
   init_define_PHOTO_SWIPE_OPTIONS,
   init_define_READING_TIME_LOCALES,
   init_define_REVEAL_CONFIG,
+  init_define_SEARCH_HOT_KEYS,
+  init_define_SEARCH_LOCALES,
   init_define_TOC_LOCALES,
   init_define_WALINE_LOCALES
-} from "./chunk-SYOGPH4A.js";
+} from "./chunk-4ZZ4CL2W.js";
 
 // dep:@vueuse_core
 init_define_ARTICLE_INFO_LOCALES();
@@ -59,6 +61,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/@vueuse/core/index.mjs
 init_define_ARTICLE_INFO_LOCALES();
@@ -76,6 +80,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/@vueuse/shared/index.mjs
 init_define_ARTICLE_INFO_LOCALES();
@@ -93,6 +99,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/vue-demi/lib/index.mjs
 init_define_ARTICLE_INFO_LOCALES();
@@ -110,6 +118,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var isVue2 = false;
 var isVue3 = true;
 function set(target, key, val) {

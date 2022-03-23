@@ -4,10 +4,11 @@ import clientAppEnhance2 from '/home/karin/project/vuepress/EmuELEC.Guide/node_m
 import clientAppEnhance3 from '/home/karin/project/vuepress/EmuELEC.Guide/node_modules/@vuepress/plugin-theme-data/lib/client/clientAppEnhance.js'
 import clientAppEnhance4 from '/home/karin/project/vuepress/EmuELEC.Guide/node_modules/vuepress-plugin-comment2/lib/client/appEnhance.js'
 import clientAppEnhance5 from '/home/karin/project/vuepress/EmuELEC.Guide/node_modules/vuepress-plugin-md-enhance/lib/client/appEnhance.js'
-import clientAppEnhance6 from '/home/karin/project/vuepress/EmuELEC.Guide/node_modules/vuepress-theme-hope/lib/client/appEnhance.js'
-import clientAppEnhance7 from '/home/karin/project/vuepress/EmuELEC.Guide/node_modules/vuepress-theme-hope/lib/client/module/navbar/appEnhance.js'
-import clientAppEnhance8 from '/home/karin/project/vuepress/EmuELEC.Guide/node_modules/vuepress-theme-hope/lib/client/module/sidebar/appEnhance.js'
-import clientAppEnhance9 from '/home/karin/project/vuepress/EmuELEC.Guide/node_modules/vuepress-theme-hope/lib/client/module/blog/appEnhance.js'
+import clientAppEnhance6 from '/home/karin/project/vuepress/EmuELEC.Guide/node_modules/@vuepress/plugin-search/lib/client/clientAppEnhance.js'
+import clientAppEnhance7 from '/home/karin/project/vuepress/EmuELEC.Guide/node_modules/vuepress-theme-hope/lib/client/appEnhance.js'
+import clientAppEnhance8 from '/home/karin/project/vuepress/EmuELEC.Guide/node_modules/vuepress-theme-hope/lib/client/module/navbar/appEnhance.js'
+import clientAppEnhance9 from '/home/karin/project/vuepress/EmuELEC.Guide/node_modules/vuepress-theme-hope/lib/client/module/sidebar/appEnhance.js'
+import clientAppEnhance10 from '/home/karin/project/vuepress/EmuELEC.Guide/node_modules/vuepress-theme-hope/lib/client/module/blog/appEnhance.js'
 
 export const clientAppEnhances = [
   clientAppEnhance0,
@@ -20,4 +21,5 @@ export const clientAppEnhances = [
   clientAppEnhance7,
   clientAppEnhance8,
   clientAppEnhance9,
+  clientAppEnhance10,
 ]

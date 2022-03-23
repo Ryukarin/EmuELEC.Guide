@@ -47,6 +47,17 @@ export default defineThemeConfig({
   },
 
   plugins: {
+    search: {
+      maxSuggestions: 20,
+      isSearchable: (page) => page.path !== '/',
+      getExtraFields: (page) => page.frontmatter.tags ?? [],
+      locales: {
+        "/": {
+          placeholder: "搜索文档",
+        },
+      },
+    },
+
     blog: {
       autoExcerpt: true,
     },

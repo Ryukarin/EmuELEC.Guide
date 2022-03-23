@@ -1,5 +1,5 @@
 export const siteData = {
-  "base": "/",
+  "base": "/EmuELEC.Guide/",
   "lang": "en-US",
   "title": "",
   "description": "",

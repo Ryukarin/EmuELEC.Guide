@@ -18,7 +18,7 @@ export const data = {
         "meta",
         {
           "property": "og:url",
-          "content": "https://ryukarin.github.io/EmuELEC.Guide/more/03.reset_setup.html"
+          "content": "https://ryukarin.github.io/EmuELEC.Guide/EmuELEC.Guide/more/03.reset_setup.html"
         }
       ],
       [
@@ -46,7 +46,7 @@ export const data = {
         "meta",
         {
           "property": "og:image",
-          "content": "https://ryukarin.github.io/EmuELEC.Guide/"
+          "content": "https://ryukarin.github.io/EmuELEC.Guide/EmuELEC.Guide/"
         }
       ],
       [
@@ -119,7 +119,17 @@ export const data = {
       "children": []
     }
   ],
-  "git": {},
+  "git": {
+    "createdTime": 1648013041000,
+    "updatedTime": 1648013041000,
+    "contributors": [
+      {
+        "name": "Ryukarin",
+        "email": "ryuukaringo@gmail.com",
+        "commits": 1
+      }
+    ]
+  },
   "readingTime": {
     "minutes": 2.44,
     "words": 733

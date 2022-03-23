@@ -3,7 +3,7 @@ import {
   isFunction,
   isPromise,
   isString
-} from "./chunk-NXTWRX7V.js";
+} from "./chunk-GQYJDICQ.js";
 import {
   init_define_ARTICLE_INFO_LOCALES,
   init_define_BACK_TO_TOP_LOCALES,
@@ -18,9 +18,11 @@ import {
   init_define_PHOTO_SWIPE_OPTIONS,
   init_define_READING_TIME_LOCALES,
   init_define_REVEAL_CONFIG,
+  init_define_SEARCH_HOT_KEYS,
+  init_define_SEARCH_LOCALES,
   init_define_TOC_LOCALES,
   init_define_WALINE_LOCALES
-} from "./chunk-SYOGPH4A.js";
+} from "./chunk-4ZZ4CL2W.js";
 
 // dep:@vuepress_shared
 init_define_ARTICLE_INFO_LOCALES();
@@ -38,6 +40,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/@vuepress/shared/lib/esm/index.js
 init_define_ARTICLE_INFO_LOCALES();
@@ -55,6 +59,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/@vuepress/shared/lib/esm/types/index.js
 init_define_ARTICLE_INFO_LOCALES();
@@ -72,6 +78,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/@vuepress/shared/lib/esm/types/head.js
 init_define_ARTICLE_INFO_LOCALES();
@@ -89,6 +97,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/@vuepress/shared/lib/esm/types/locale.js
 init_define_ARTICLE_INFO_LOCALES();
@@ -106,6 +116,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/@vuepress/shared/lib/esm/types/page.js
 init_define_ARTICLE_INFO_LOCALES();
@@ -123,6 +135,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/@vuepress/shared/lib/esm/types/site.js
 init_define_ARTICLE_INFO_LOCALES();
@@ -140,6 +154,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/@vuepress/shared/lib/esm/types/ssr.js
 init_define_ARTICLE_INFO_LOCALES();
@@ -157,6 +173,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/@vuepress/shared/lib/esm/utils/index.js
 init_define_ARTICLE_INFO_LOCALES();
@@ -174,6 +192,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/@vuepress/shared/lib/esm/utils/dedupeHead.js
 init_define_ARTICLE_INFO_LOCALES();
@@ -191,6 +211,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/@vuepress/shared/lib/esm/utils/resolveHeadIdentifier.js
 init_define_ARTICLE_INFO_LOCALES();
@@ -208,6 +230,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var resolveHeadIdentifier = ([tag, attrs, content]) => {
   if (tag === "meta" && attrs.name) {
     return `${tag}.${attrs.name}`;
@@ -251,6 +275,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var ensureLeadingSlash = (str) => str.replace(/^\/?/, "/");
 
 // node_modules/@vuepress/shared/lib/esm/utils/ensureEndingSlash.js
@@ -269,6 +295,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var ensureEndingSlash = (str) => /(\.html|\/)$/.test(str) ? str : str + "/";
 
 // node_modules/@vuepress/shared/lib/esm/utils/formatDateString.js
@@ -287,6 +315,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var formatDateString = (str, defaultDateString = "") => {
   const dateMatch = str.match(/\b(\d{4})-(\d{1,2})-(\d{1,2})\b/);
   if (dateMatch === null) {
@@ -312,6 +342,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var htmlEscapeMap = {
   "&": "&amp;",
   "<": "&lt;",
@@ -338,6 +370,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var htmlUnescapeMap = {
   "&amp;": "&",
   "&#38;": "&",
@@ -369,6 +403,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/@vuepress/shared/lib/esm/utils/isLinkFtp.js
 init_define_ARTICLE_INFO_LOCALES();
@@ -386,6 +422,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var isLinkFtp = (link) => link.startsWith("ftp://");
 
 // node_modules/@vuepress/shared/lib/esm/utils/isLinkHttp.js
@@ -404,6 +442,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var isLinkHttp = (link) => /^(https?:)?\/\//.test(link);
 
 // node_modules/@vuepress/shared/lib/esm/utils/isLinkExternal.js
@@ -433,6 +473,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var isLinkMailto = (link) => /^mailto:/.test(link);
 
 // node_modules/@vuepress/shared/lib/esm/utils/isLinkTel.js
@@ -451,6 +493,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var isLinkTel = (link) => /^tel:/.test(link);
 
 // node_modules/@vuepress/shared/lib/esm/utils/isPlainObject.js
@@ -469,6 +513,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var isPlainObject = (val) => Object.prototype.toString.call(val) === "[object Object]";
 
 // node_modules/@vuepress/shared/lib/esm/utils/normalizePackageName.js
@@ -487,6 +533,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var normalizePackageName = (request, org, type = null) => {
   const orgPrefix = `${org}-`;
   const typePrefix = type === null ? "" : `${type}-`;
@@ -526,6 +574,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var removeEndingSlash = (str) => str.replace(/\/$/, "");
 
 // node_modules/@vuepress/shared/lib/esm/utils/removeLeadingSlash.js
@@ -544,6 +594,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var removeLeadingSlash = (str) => str.replace(/^\//, "");
 
 // node_modules/@vuepress/shared/lib/esm/utils/resolveLocalePath.js
@@ -562,6 +614,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var resolveLocalePath = (locales, routePath) => {
   const localePaths = Object.keys(locales).sort((a, b) => {
     const levelDelta = b.split("/").length - a.split("/").length;
@@ -594,6 +648,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var resolveRoutePathFromUrl = (url, base = "/") => url.replace(/^(https?:)?\/\/[^/]*/, "").replace(new RegExp(`^${base}`), "/");
 export {
   dedupeHead,

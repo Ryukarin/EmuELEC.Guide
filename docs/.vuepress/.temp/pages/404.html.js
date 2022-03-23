@@ -11,7 +11,7 @@ export const data = {
         "meta",
         {
           "property": "og:url",
-          "content": "https://ryukarin.github.io/EmuELEC.Guide/404.html"
+          "content": "https://ryukarin.github.io/EmuELEC.Guide/EmuELEC.Guide/404.html"
         }
       ],
       [

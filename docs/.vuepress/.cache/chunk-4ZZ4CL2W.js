@@ -136,6 +136,18 @@ var init_define_EXTERNAL_LINK_ICON_LOCALES = __esm({
   }
 });
 
+// <define:__SEARCH_HOT_KEYS__>
+var init_define_SEARCH_HOT_KEYS = __esm({
+  "<define:__SEARCH_HOT_KEYS__>"() {
+  }
+});
+
+// <define:__SEARCH_LOCALES__>
+var init_define_SEARCH_LOCALES = __esm({
+  "<define:__SEARCH_LOCALES__>"() {
+  }
+});
+
 export {
   __spreadValues,
   __spreadProps,
@@ -158,6 +170,8 @@ export {
   init_define_REVEAL_CONFIG,
   init_define_TOC_LOCALES,
   init_define_WALINE_LOCALES,
-  init_define_EXTERNAL_LINK_ICON_LOCALES
+  init_define_EXTERNAL_LINK_ICON_LOCALES,
+  init_define_SEARCH_HOT_KEYS,
+  init_define_SEARCH_LOCALES
 };
-//# sourceMappingURL=chunk-SYOGPH4A.js.map
+//# sourceMappingURL=chunk-4ZZ4CL2W.js.map

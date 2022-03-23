@@ -12,9 +12,11 @@ import {
   init_define_PHOTO_SWIPE_OPTIONS,
   init_define_READING_TIME_LOCALES,
   init_define_REVEAL_CONFIG,
+  init_define_SEARCH_HOT_KEYS,
+  init_define_SEARCH_LOCALES,
   init_define_TOC_LOCALES,
   init_define_WALINE_LOCALES
-} from "./chunk-SYOGPH4A.js";
+} from "./chunk-4ZZ4CL2W.js";
 
 // dep:reveal_js_plugin_notes_notes_esm_js
 init_define_ARTICLE_INFO_LOCALES();
@@ -32,6 +34,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/reveal.js/plugin/notes/notes.esm.js
 init_define_ARTICLE_INFO_LOCALES();
@@ -49,6 +53,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var t = typeof globalThis != "undefined" ? globalThis : typeof window != "undefined" ? window : typeof global != "undefined" ? global : typeof self != "undefined" ? self : {};
 var e = function(t2) {
   return t2 && t2.Math == Math && t2;

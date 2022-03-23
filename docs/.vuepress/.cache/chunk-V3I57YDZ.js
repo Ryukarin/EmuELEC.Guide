@@ -12,9 +12,11 @@ import {
   init_define_PHOTO_SWIPE_OPTIONS,
   init_define_READING_TIME_LOCALES,
   init_define_REVEAL_CONFIG,
+  init_define_SEARCH_HOT_KEYS,
+  init_define_SEARCH_LOCALES,
   init_define_TOC_LOCALES,
   init_define_WALINE_LOCALES
-} from "./chunk-SYOGPH4A.js";
+} from "./chunk-4ZZ4CL2W.js";
 
 // node_modules/@vue/devtools-api/lib/esm/time.js
 init_define_ARTICLE_INFO_LOCALES();
@@ -32,6 +34,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var supported;
 var perf;
 function isPerformanceSupported() {
@@ -70,6 +74,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/@vue/devtools-api/lib/esm/env.js
 init_define_ARTICLE_INFO_LOCALES();
@@ -87,6 +93,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 function getDevtoolsGlobalHook() {
   return getTarget().__VUE_DEVTOOLS_GLOBAL_HOOK__;
 }
@@ -111,6 +119,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var HOOK_SETUP = "devtools-plugin:setup";
 var HOOK_PLUGIN_SETTINGS_SET = "plugin:settings:set";
 
@@ -130,6 +140,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var ApiProxy = class {
   constructor(plugin, hook) {
     this.target = null;
@@ -245,6 +257,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/@vue/devtools-api/lib/esm/api/api.js
 init_define_ARTICLE_INFO_LOCALES();
@@ -262,6 +276,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/@vue/devtools-api/lib/esm/api/app.js
 init_define_ARTICLE_INFO_LOCALES();
@@ -279,6 +295,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/@vue/devtools-api/lib/esm/api/component.js
 init_define_ARTICLE_INFO_LOCALES();
@@ -296,6 +314,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/@vue/devtools-api/lib/esm/api/context.js
 init_define_ARTICLE_INFO_LOCALES();
@@ -313,6 +333,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/@vue/devtools-api/lib/esm/api/hooks.js
 init_define_ARTICLE_INFO_LOCALES();
@@ -330,6 +352,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/@vue/devtools-api/lib/esm/api/util.js
 init_define_ARTICLE_INFO_LOCALES();
@@ -347,6 +371,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/@vue/devtools-api/lib/esm/plugin.js
 init_define_ARTICLE_INFO_LOCALES();
@@ -364,6 +390,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/@vue/devtools-api/lib/esm/index.js
 function setupDevtoolsPlugin(pluginDescriptor, setupFn) {
@@ -391,4 +419,4 @@ export {
   now,
   setupDevtoolsPlugin
 };
-//# sourceMappingURL=chunk-YAEMIUOD.js.map
+//# sourceMappingURL=chunk-V3I57YDZ.js.map

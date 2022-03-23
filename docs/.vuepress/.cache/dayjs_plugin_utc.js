@@ -13,9 +13,11 @@ import {
   init_define_PHOTO_SWIPE_OPTIONS,
   init_define_READING_TIME_LOCALES,
   init_define_REVEAL_CONFIG,
+  init_define_SEARCH_HOT_KEYS,
+  init_define_SEARCH_LOCALES,
   init_define_TOC_LOCALES,
   init_define_WALINE_LOCALES
-} from "./chunk-SYOGPH4A.js";
+} from "./chunk-4ZZ4CL2W.js";
 
 // node_modules/dayjs/plugin/utc.js
 var require_utc = __commonJS({
@@ -35,6 +37,8 @@ var require_utc = __commonJS({
     init_define_TOC_LOCALES();
     init_define_WALINE_LOCALES();
     init_define_EXTERNAL_LINK_ICON_LOCALES();
+    init_define_SEARCH_HOT_KEYS();
+    init_define_SEARCH_LOCALES();
     !function(t, i) {
       typeof exports == "object" && typeof module != "undefined" ? module.exports = i() : typeof define == "function" && define.amd ? define(i) : (t = typeof globalThis != "undefined" ? globalThis : t || self).dayjs_plugin_utc = i();
     }(exports, function() {
@@ -133,6 +137,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var dayjs_plugin_utc_default = require_utc();
 export {
   dayjs_plugin_utc_default as default

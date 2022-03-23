@@ -13,9 +13,11 @@ import {
   init_define_PHOTO_SWIPE_OPTIONS,
   init_define_READING_TIME_LOCALES,
   init_define_REVEAL_CONFIG,
+  init_define_SEARCH_HOT_KEYS,
+  init_define_SEARCH_LOCALES,
   init_define_TOC_LOCALES,
   init_define_WALINE_LOCALES
-} from "./chunk-SYOGPH4A.js";
+} from "./chunk-4ZZ4CL2W.js";
 
 // node_modules/photoswipe/dist/photoswipe-ui-default.js
 var require_photoswipe_ui_default = __commonJS({
@@ -35,6 +37,8 @@ var require_photoswipe_ui_default = __commonJS({
     init_define_TOC_LOCALES();
     init_define_WALINE_LOCALES();
     init_define_EXTERNAL_LINK_ICON_LOCALES();
+    init_define_SEARCH_HOT_KEYS();
+    init_define_SEARCH_LOCALES();
     (function(root, factory) {
       if (typeof define === "function" && define.amd) {
         define(factory);
@@ -649,6 +653,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var photoswipe_dist_photoswipe_ui_default_default = require_photoswipe_ui_default();
 export {
   photoswipe_dist_photoswipe_ui_default_default as default

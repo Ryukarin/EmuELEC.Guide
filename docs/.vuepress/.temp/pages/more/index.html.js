@@ -18,7 +18,7 @@ export const data = {
         "meta",
         {
           "property": "og:url",
-          "content": "https://ryukarin.github.io/EmuELEC.Guide/more/"
+          "content": "https://ryukarin.github.io/EmuELEC.Guide/EmuELEC.Guide/more/"
         }
       ],
       [
@@ -74,7 +74,17 @@ export const data = {
       "children": []
     }
   ],
-  "git": {},
+  "git": {
+    "createdTime": 1648013041000,
+    "updatedTime": 1648013041000,
+    "contributors": [
+      {
+        "name": "Ryukarin",
+        "email": "ryuukaringo@gmail.com",
+        "commits": 1
+      }
+    ]
+  },
   "readingTime": {
     "minutes": 0.25,
     "words": 74

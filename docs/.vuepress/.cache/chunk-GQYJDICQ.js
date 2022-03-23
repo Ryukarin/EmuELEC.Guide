@@ -12,9 +12,11 @@ import {
   init_define_PHOTO_SWIPE_OPTIONS,
   init_define_READING_TIME_LOCALES,
   init_define_REVEAL_CONFIG,
+  init_define_SEARCH_HOT_KEYS,
+  init_define_SEARCH_LOCALES,
   init_define_TOC_LOCALES,
   init_define_WALINE_LOCALES
-} from "./chunk-SYOGPH4A.js";
+} from "./chunk-4ZZ4CL2W.js";
 
 // node_modules/@vue/shared/dist/shared.esm-bundler.js
 init_define_ARTICLE_INFO_LOCALES();
@@ -32,6 +34,8 @@ init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 function makeMap(str, expectsLowerCase) {
   const map = /* @__PURE__ */ Object.create(null);
   const list = str.split(",");
@@ -328,4 +332,4 @@ export {
   toNumber,
   getGlobalThis
 };
-//# sourceMappingURL=chunk-NXTWRX7V.js.map
+//# sourceMappingURL=chunk-GQYJDICQ.js.map

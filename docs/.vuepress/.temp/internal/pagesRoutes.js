@@ -1,9 +1,9 @@
 import { Vuepress } from '@vuepress/client/lib/components/Vuepress'
 
 const routeItems = [
-  ["v-184f4da6","/intro.html",{"title":"KARIN","icon":"info","type":"article","readingTime":{"minutes":0.04,"words":12},"excerpt":"KARIN 我很懒，所以没有个人信息"},["/intro","/intro.md"]],
-  ["v-590a42d9","/project.html",{"title":"项目介绍","icon":"folder","type":"home","readingTime":{"minutes":0,"words":0},"excerpt":""},["/project","/project.md"]],
-  ["v-8daa1a0e","/",{"title":"博客主页","icon":"home","type":"home","readingTime":{"minutes":0,"words":0},"excerpt":""},["/index.html","/readme.md"]],
+  ["v-184f4da6","/intro.html",{"title":"KARIN","icon":"info","type":"article","readingTime":{"minutes":0.04,"words":12},"excerpt":"KARIN 我很懒，所以没有个人信息","date":"2022-03-23T05:24:01.000Z"},["/intro","/intro.md"]],
+  ["v-590a42d9","/project.html",{"title":"项目介绍","icon":"folder","type":"home","readingTime":{"minutes":0,"words":0},"excerpt":"","date":"2022-03-23T05:24:01.000Z"},["/project","/project.md"]],
+  ["v-8daa1a0e","/",{"title":"博客主页","icon":"home","type":"home","readingTime":{"minutes":0,"words":0},"excerpt":"","date":"2022-03-23T05:24:01.000Z"},["/index.html","/readme.md"]],
   ["v-5405215c","/guide/00.introduce.html",{"title":"零、EmuELEC是什么","type":"article","readingTime":{"minutes":1.2,"words":361},"excerpt":"EmuELEC 是什么 用于 Amlogic 设备的复古怀旧游戏的模拟。基于 CoreELEC 和 Lakka 以及 Batocera 。只是将它们与 Batocera-Emulationstation 和一些独立的模拟器（ Advancemame 、PPSSPP、Reicast、Amiberry 等）结合起来。 支持的设备 几乎所有 Amlogic S90","date":"2022-02-01T00:00:00.000Z","category":["Guide"],"tag":["EmuELEC"]},["/guide/00.introduce","/guide/00.introduce.md"]],
   ["v-7d7b647f","/guide/01.install.html",{"title":"一、EmuELEC启动盘制作","type":"article","readingTime":{"minutes":2.04,"words":613},"excerpt":"下载镜像 到EmuELEC开源项目下载对应设备的镜像，或者到本站提供的网盘链接下载（只提供通用版本）。 EmuELEC-Amlogic.aarch64-xxx-generic.img.gz 适用于 S905、S905x、S905l、S905w 等; EmuELEC-Amlogic-ng.aarch64-xxx-generic.img.gz 适用于 S905x","date":"2022-02-01T00:00:00.000Z","category":["Guide"],"tag":["EmuELEC"]},["/guide/01.install","/guide/01.install.md"]],
   ["v-087f1896","/guide/02.settings.html",{"title":"二、EmuELEC基本设置","type":"article","readingTime":{"minutes":3.61,"words":1083},"excerpt":"进入系统 从TF卡/U盘顺利启动，启动画面如下，正在扩容分区，格式化等操作，完成后会自动重启 重启后，开始进入系统，第一次系统加载时间会长一些，耐心等待 经过耐心的等待，顺利进入系统，画面如下 EmulationStation设置 手柄映射 手柄连接到设备上，系统会自动识别到，长按手柄上任意一个按键来映射手柄 按照提示映射你的手柄 语言时区设置 按下手柄的S","date":"2022-02-01T00:00:00.000Z","category":["Guide"],"tag":["EmuELEC"]},["/guide/02.settings","/guide/02.settings.md"]],
