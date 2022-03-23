@@ -1,0 +1,146 @@
+{
+  "hash": "9f985b22",
+  "browserHash": "0442aa04",
+  "optimized": {
+    "vue": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/vue.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js",
+      "needsInterop": false
+    },
+    "vue-router": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/vue-router.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/vue-router/dist/vue-router.esm-bundler.js",
+      "needsInterop": false
+    },
+    "@vue/devtools-api": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/@vue_devtools-api.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/@vue/devtools-api/lib/esm/index.js",
+      "needsInterop": false
+    },
+    "nprogress": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/nprogress.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/nprogress/nprogress.js",
+      "needsInterop": true
+    },
+    "lodash.debounce": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/lodash_debounce.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/lodash.debounce/index.js",
+      "needsInterop": true
+    },
+    "@vueuse/core": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/@vueuse_core.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/@vueuse/core/index.mjs",
+      "needsInterop": false
+    },
+    "@giscus/vue": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/@giscus_vue.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/@giscus/vue/dist/index.es.js",
+      "needsInterop": false
+    },
+    "chart.js/auto": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/chart_js_auto.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/chart.js/auto/auto.esm.js",
+      "needsInterop": false
+    },
+    "flowchart.js": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/flowchart_js.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/flowchart.js/index.js",
+      "needsInterop": true
+    },
+    "mermaid": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/mermaid.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/mermaid/dist/mermaid.esm.min.mjs",
+      "needsInterop": false
+    },
+    "reveal.js/dist/reveal.esm.js": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/reveal_js_dist_reveal_esm_js.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/reveal.js/dist/reveal.esm.js",
+      "needsInterop": false
+    },
+    "reveal.js/plugin/markdown/markdown.esm.js": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/reveal_js_plugin_markdown_markdown_esm_js.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/reveal.js/plugin/markdown/markdown.esm.js",
+      "needsInterop": false
+    },
+    "reveal.js/plugin/highlight/highlight.esm.js": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/reveal_js_plugin_highlight_highlight_esm_js.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/reveal.js/plugin/highlight/highlight.esm.js",
+      "needsInterop": false
+    },
+    "reveal.js/plugin/math/math.esm.js": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/reveal_js_plugin_math_math_esm_js.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/reveal.js/plugin/math/math.esm.js",
+      "needsInterop": false
+    },
+    "reveal.js/plugin/search/search.esm.js": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/reveal_js_plugin_search_search_esm_js.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/reveal.js/plugin/search/search.esm.js",
+      "needsInterop": false
+    },
+    "reveal.js/plugin/notes/notes.esm.js": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/reveal_js_plugin_notes_notes_esm_js.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/reveal.js/plugin/notes/notes.esm.js",
+      "needsInterop": false
+    },
+    "reveal.js/plugin/zoom/zoom.esm.js": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/reveal_js_plugin_zoom_zoom_esm_js.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/reveal.js/plugin/zoom/zoom.esm.js",
+      "needsInterop": false
+    },
+    "photoswipe": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/photoswipe.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/photoswipe/dist/photoswipe.js",
+      "needsInterop": true
+    },
+    "photoswipe/dist/photoswipe-ui-default": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/photoswipe_dist_photoswipe-ui-default.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/photoswipe/dist/photoswipe-ui-default.js",
+      "needsInterop": true
+    },
+    "bcryptjs": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/bcryptjs.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/bcryptjs/dist/bcrypt.js",
+      "needsInterop": true
+    },
+    "lodash.throttle": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/lodash_throttle.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/lodash.throttle/index.js",
+      "needsInterop": true
+    },
+    "@mr-hope/vuepress-shared/lib/client": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/@mr-hope_vuepress-shared_lib_client.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/@mr-hope/vuepress-shared/lib/client/index.js",
+      "needsInterop": false
+    },
+    "dayjs": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/dayjs.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/dayjs/dayjs.min.js",
+      "needsInterop": true
+    },
+    "dayjs/plugin/localizedFormat": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/dayjs_plugin_localizedFormat.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/dayjs/plugin/localizedFormat.js",
+      "needsInterop": true
+    },
+    "dayjs/plugin/objectSupport": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/dayjs_plugin_objectSupport.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/dayjs/plugin/objectSupport.js",
+      "needsInterop": true
+    },
+    "dayjs/plugin/timezone": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/dayjs_plugin_timezone.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/dayjs/plugin/timezone.js",
+      "needsInterop": true
+    },
+    "dayjs/plugin/utc": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/dayjs_plugin_utc.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/dayjs/plugin/utc.js",
+      "needsInterop": true
+    },
+    "@vuepress/shared": {
+      "file": "/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.cache/@vuepress_shared.js",
+      "src": "/home/karin/project/vuepress/EmuELEC.Guide/node_modules/@vuepress/shared/lib/esm/index.js",
+      "needsInterop": false
+    }
+  }
+}

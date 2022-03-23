@@ -1,0 +1,19 @@
+---
+title: EmuELEC技巧导航
+date: 2022-02-01
+category: 
+  - navigation
+tag:
+  - EmuELEC
+---
+
+## 文章列表
+
+- [分区目录文件](01.directory_file.md)
+- [更换开机视频](02.change_bootvideo.md)
+- [修改系统设置菜单](03.reset_setup.md)
+- [安装NDS模拟器drastic](04.install_drastic.md)
+- [ES中文翻译的完善](05.locale.md)
+- [更换开机闪图（进阶1）](77.change_bootsplash.md)
+- [修改系统文件（进阶2）](88.change_system.md)
+- [重新打包镜像（进阶3）](99.remk_img.md)

@@ -1,0 +1,100 @@
+<template><h2 id="分区说明" tabindex="-1"><a class="header-anchor" href="#分区说明" aria-hidden="true">#</a> 分区说明</h2>
+<p>在将img镜像烧录到TF卡/U盘后，会产生两个分区：</p>
+<ul>
+<li><strong>EMUELEC分区</strong>：用于系统启动的文件，例如<code>dtb.img</code> 、<code>SYSTEM</code>、<code>kernel.img</code>等系统文件</li>
+<li><strong>STORAGE分区</strong>：空（只有扩容用的文件）</li>
+</ul>
+<p><img src="@source/more/assets/more_1-1.png" alt="more_1-1" loading="lazy"></p>
+<h2 id="目录结构" tabindex="-1"><a class="header-anchor" href="#目录结构" aria-hidden="true">#</a> 目录结构</h2>
+<p>EmuELEC系统启动后，挂载信息如下：</p>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>/dev/sda1 <span class="token number">2</span>.0G <span class="token number">799</span>.5M <span class="token number">1</span>.2G <span class="token number">39</span>% /flash
+/dev/loop0 <span class="token number">774</span>.5M <span class="token number">774</span>.5M <span class="token number">0</span> <span class="token number">100</span>% /
+/dev/sda2 <span class="token number">1</span>.9G <span class="token number">699</span>.7M <span class="token number">1</span>.2G <span class="token number">35</span>% /storage
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p><img src="@source/more/assets/more_1-2.png" alt="more_1-2" loading="lazy"></p>
+<ul>
+<li><strong>EMUELEC分区</strong>被挂载为<code>/flash</code></li>
+<li><strong>STORAGE分区</strong>被挂载为<code>/storage</code></li>
+<li><strong>SYSTEM文件</strong>通过<code>/dev/loop0</code>被挂载为系统根目录<code>/</code></li>
+</ul>
+<p>所以，用户能修改的仅仅是<code>/flash</code>和<code>/storage</code>目录下的文件，<code>/usr</code>目录下的文件是不能修改的。</p>
+<p>root用户的home目录被定位到<code>/storage</code>并非<code>/root</code>。</p>
+<h2 id="目录文件" tabindex="-1"><a class="header-anchor" href="#目录文件" aria-hidden="true">#</a> 目录文件</h2>
+<p><strong>常用目录说明</strong></p>
+<table>
+<thead>
+<tr>
+<th>目录位置</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/storage/roms/</td>
+<td>同来存放游戏ROM文件（根据平台目录）</td>
+</tr>
+<tr>
+<td>/storage/roms/bezels/</td>
+<td>存放游戏平台边框文件（根据平台目录）</td>
+</tr>
+<tr>
+<td>/storage/roms/splash/</td>
+<td>存放游戏平台闪图文件（根据平台目录）</td>
+</tr>
+<tr>
+<td>/storage/.config/emuelec/</td>
+<td>EmuELEC系统相关配置目录</td>
+</tr>
+<tr>
+<td>/storage/.config/emuelec/config/locale/</td>
+<td>EmuELEC系统语言目录</td>
+</tr>
+<tr>
+<td>/storage/.config/emulationstation/</td>
+<td>EmulationStation前端目录</td>
+</tr>
+<tr>
+<td>/storage/.config/emulationstation/themes/</td>
+<td>EmulationStation前端主题目录</td>
+</tr>
+<tr>
+<td>/usr/bin/ports/</td>
+<td>Ports游戏平台相关目录（无法修改）</td>
+</tr>
+<tr>
+<td>/usr/bin/scripts/setup/</td>
+<td>系统设置SETUP相关目录（无法修改）</td>
+</tr>
+</tbody>
+</table>
+<p><strong>常用文件说明</strong></p>
+<table>
+<thead>
+<tr>
+<th>文件位置</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/usr/bin/bezels.sh</td>
+<td>边框运行脚本（无法修改）</td>
+</tr>
+<tr>
+<td>/usr/bin/show_splash.sh</td>
+<td>闪图运行脚本（无法修改）</td>
+</tr>
+<tr>
+<td>/usr/bin/emuelecRunEmu.sh</td>
+<td>游戏ROM启动脚本（无法修改）</td>
+</tr>
+<tr>
+<td>/storage/.config/emuelec/config/emuelec.conf</td>
+<td>EmuELEC系统设置相关文件</td>
+</tr>
+<tr>
+<td>/storage/.config/emulationstation/resources/logo.png</td>
+<td>ES画面，可替换更改</td>
+</tr>
+</tbody>
+</table>
+</template>
