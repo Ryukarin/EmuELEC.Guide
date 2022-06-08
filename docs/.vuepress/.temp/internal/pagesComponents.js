@@ -39,6 +39,8 @@ export const pagesComponents = {
   "v-43b5ea50": defineAsyncComponent(() => import(/* webpackChunkName: "v-43b5ea50" */"/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.temp/pages/more/04.install_drastic.html.vue")),
   // path: /more/05.locale_zh.html
   "v-5ec6d68e": defineAsyncComponent(() => import(/* webpackChunkName: "v-5ec6d68e" */"/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.temp/pages/more/05.locale_zh.html.vue")),
+  // path: /more/06.mount_fstype.html
+  "v-78fa9776": defineAsyncComponent(() => import(/* webpackChunkName: "v-78fa9776" */"/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.temp/pages/more/06.mount_fstype.html.vue")),
   // path: /more/77.change_bootsplash.html
   "v-7cfca044": defineAsyncComponent(() => import(/* webpackChunkName: "v-7cfca044" */"/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.temp/pages/more/77.change_bootsplash.html.vue")),
   // path: /more/88.change_system.html

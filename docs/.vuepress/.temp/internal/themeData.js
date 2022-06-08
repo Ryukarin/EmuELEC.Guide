@@ -10,7 +10,7 @@ export const themeData = {
   "encrypt": {
     "config": {
       "/guide/encrypt.html": [
-        "$2a$10$GDo8xbsslh18nOzdHVJliO2lWmZU4nwGEeL0b2aXXg45RZOiLFzWy"
+        "$2a$10$lVa1Lq.Xw04.rz867/L52OjlB8IyGkSK.zOlnuKImjOYxqiwzxExi"
       ]
     }
   },
@@ -73,6 +73,7 @@ export const themeData = {
             "03.reset_setup",
             "04.install_drastic",
             "05.locale_zh",
+            "06.mount_fstype",
             "77.change_bootsplash",
             "88.change_system",
             "99.remk_img"

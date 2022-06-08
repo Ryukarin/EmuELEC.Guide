@@ -37,6 +37,8 @@ export const pagesData = {
   "v-43b5ea50": () => import(/* webpackChunkName: "v-43b5ea50" */"/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.temp/pages/more/04.install_drastic.html.js").then(({ data }) => data),
   // path: /more/05.locale_zh.html
   "v-5ec6d68e": () => import(/* webpackChunkName: "v-5ec6d68e" */"/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.temp/pages/more/05.locale_zh.html.js").then(({ data }) => data),
+  // path: /more/06.mount_fstype.html
+  "v-78fa9776": () => import(/* webpackChunkName: "v-78fa9776" */"/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.temp/pages/more/06.mount_fstype.html.js").then(({ data }) => data),
   // path: /more/77.change_bootsplash.html
   "v-7cfca044": () => import(/* webpackChunkName: "v-7cfca044" */"/home/karin/project/vuepress/EmuELEC.Guide/docs/.vuepress/.temp/pages/more/77.change_bootsplash.html.js").then(({ data }) => data),
   // path: /more/88.change_system.html

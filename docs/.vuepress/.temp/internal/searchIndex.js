@@ -546,6 +546,26 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "外挂USB存储游戏ROM",
+    "headers": [
+      {
+        "level": 2,
+        "title": "前提",
+        "slug": "前提",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "过程",
+        "slug": "过程",
+        "children": []
+      }
+    ],
+    "path": "/more/06.mount_fstype.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "更换开机闪图（进阶1）",
     "headers": [
       {
