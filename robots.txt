@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://ryukarin.github.io/EmuELEC.Guide/EmuELEC.Guide/sitemap.xml
